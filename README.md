@@ -1,6 +1,8 @@
 # turboshrimp-h264j
 
-A Clojure library designed to ... well, that part is up to you.
+This is an AR.Drone video decoder for
+[turboshrimp](https://github.com/wiseman/turboshrimp) that uses
+[h264j](https://code.google.com/p/h264j/).
 
 ## Usage
 
@@ -8,7 +10,6 @@ FIXME
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 John Wiseman
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the MIT license.  See the accompanying LICENSE file.
