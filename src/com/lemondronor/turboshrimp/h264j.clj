@@ -21,7 +21,7 @@
           (throw (ex-info
                   (str "Unable to decode frame; len= " len)
                   {})))
-        (when (not (first got-picture))
+        (when-not (first got-picture)
           (throw (ex-info
                   (str "Unable to decode frame; got-picture= " got-picture)
                   {})))
