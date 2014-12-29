@@ -1,4 +1,4 @@
-(defproject com.lemondronor/turboshrimp-h264j "0.1.0-SNAPSHOT"
+(defproject com.lemondronor/turboshrimp-h264j "0.1.0-SNAPSHOT16"
   :description (str "An AR.Drone video deocder for the turboshrimp library "
                     "that uses h264j.")
   :url "https://github.com/wiseman/turboshrimp-h264j"
