@@ -1,9 +1,9 @@
 (ns com.lemondronor.turboshrimp.h264j
-  ""
-  (:import (com.twilight.h264.decoder AVFrame AVPacket H264Context H264Decoder
-                                      MpegEncContext)
-           com.twilight.h264.player.FrameUtils
-           java.awt.image.BufferedImage))
+  "AR.Drone video decoder using h264j."
+  (:import (com.twilight.h264.decoder AVFrame AVPacket H264Context
+                                      H264Decoder MpegEncContext)
+           (com.twilight.h264.player FrameUtils)
+           (java.awt.image BufferedImage)))
 
 
 (defn- copy-byte-array-to-int-array [^bytes ba ^ints ia]
