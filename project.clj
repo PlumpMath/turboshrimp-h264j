@@ -7,11 +7,9 @@
   :deploy-repositories [["releases" :clojars]]
   :dependencies [[com.twilight/h264 "0.0.1"]
                  [org.clojure/clojure "1.6.0"]]
-  :profiles {:test
-             {:dependencies [[com.lemondronor/turboshrimp "0.3.2"]]
-              :resource-paths ["test-resources"]}
-             :dev
+  :profiles {:dev
              {:dependencies [[com.lemondronor/turboshrimp "0.3.2"]
                              [com.lemonodor/gflags "0.7.1"]]
+              :resource-paths ["test-resources"]
               :plugins [[lein-cloverage "1.0.2"]]
               :source-paths ["examples"]}})
