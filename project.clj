@@ -8,5 +8,5 @@
   :dependencies [[com.twilight/h264 "0.0.1"]
                  [org.clojure/clojure "1.6.0"]]
   :profiles {:test
-             {:dependencies [[com.lemondronor/turboshrimp "0.3.1"]]
+             {:dependencies [[com.lemondronor/turboshrimp "0.3.2"]]
               :resource-paths ["test-resources"]}})
