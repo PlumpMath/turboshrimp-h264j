@@ -1,6 +1,6 @@
 (ns showvideo
-  "Example of decoding AR.Drone video with asynchronous display and
-  latency reduction."
+  "This is an example of decoding AR.Drone video with asynchronous
+  display and latency reduction."
   (:require [clojure.java.io :as io]
             [clojure.tools.logging :as log]
             [com.lemondronor.turboshrimp.h264j :as decode]
