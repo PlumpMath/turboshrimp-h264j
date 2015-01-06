@@ -13,6 +13,6 @@ FIXME
 
 ## License
 
-Copyright © 2014 John Wiseman
+Copyright © 2014, 2015 John Wiseman
 
 Distributed under the MIT license.  See the accompanying LICENSE file.
